@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="fr" data-lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>E-DS : Plateforme de gestion des Déclarations de Soupçon</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;500;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="reveal">
+        <div id="particles-js" class="particles-background"></div>
+
+        <div class="slides">
+
+            <!-- Slide 1 : Titre & Vision -->
+            <section class="title-slide" data-transition="zoom" id="title">
+                <div class="glass-card main-title-card">
+                    <div class="logos-container">
+                        <img src="logo ctrf.png" alt="Logo CTRF" class="header-logo">
+                        <img src="logo.png" alt="Logo Ministère" class="header-logo">
+                    </div>
+                    <h1 class="gradient-text main-title">
+                        <span class="lang-fr"><span class="eds-glow">E-DS</span> : Plateforme numérique de gestion des
+                            Déclarations de Soupçon</span>
+                        <span class="lang-en"><span class="eds-glow">E-DS</span>: Digital Platform for Suspicious
+                            Transaction Reports
+                            Management</span>
+                    </h1>
+                    <hr class="glow-divider">
+                    <p class="subtitle">
+                        <span class="lang-fr">Secteur des Assurances : Sécurisation, Efficacité et Conformité</span>
+                        <span class="lang-en">Insurance Sector: Security, Efficiency and Compliance</span>
+                    </p>
+                    <div class="tag-footer" style="color: var(--accent-glow); margin-top: 30px;">
+                        <span class="lang-fr"><i class="fa-solid fa-keyboard"></i> Appuyez sur 'L' pour changer de
+                            langue</span>
+                        <span class="lang-en"><i class="fa-solid fa-keyboard"></i> Press 'L' to toggle language</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 2 : Cadre de Conformité 2026 -->
+            <section data-transition="slide" id="contexte">
+                <div class="slide-header">
+                    <div class="title-icon-container" style="color: var(--accent-glow);"><i
+                            class="fa-solid fa-gavel"></i></div>
+                    <h2 class="main-slide-title">
+                        <span class="lang-fr">Conformité : Cadre Réglementaire 2026</span>
+                        <span class="lang-en">Compliance: 2026 Regulatory Framework</span>
+                    </h2>
+                </div>
+                <div class="use-case-container"
+                    style="margin-top: 70px; width: 1780px !important; margin-left: auto; margin-right: auto; display: flex; justify-content: center;">
+                    <div class="benefits-grid"
+                        style="display: flex !important; gap: 40px !important; width: 100% !important; justify-content: center !important; align-items: stretch !important;">
+                        <!-- Pillar 1: Data Protection -->
+                        <div class="benefit-item fade-up delay-1"
+                            style="flex-direction: column !important; text-align: center !important; padding: 75px 50px !important; border: 3px solid rgba(2, 132, 199, 0.3) !important; background: white !important; border-radius: 45px !important; box-shadow: 0 25px 60px rgba(0,0,0,0.08) !important; width: 540px !important; height: 780px !important; display: flex !important; justify-content: flex-start !important; align-items: center !important; box-sizing: border-box !important; flex-shrink: 0 !important;">
+                            <div class="icon-circle"
+                                style="width: 170px !important; height: 170px !important; background: rgba(2, 132, 199, 0.05) !important; border-radius: 50% !important; display: flex !important; align-items: center !important; justify-content: center !important; margin-bottom: 50px !important; border: 3px solid rgba(2, 132, 199, 0.4) !important; flex-shrink: 0 !important;">
+                                <i class="fa-solid fa-user-shield"
+                                    style="font-size: 6.5rem !important; color: var(--accent-glow) !important;"></i>
+                            </div>
+                            <div class="benefit-content"
+                                style="width: 100% !important; display: flex !important; flex-direction: column !important; align-items: center !important;">
+                                <strong
+                                    style="font-size: 3rem !important; color: var(--text-main) !important; display: flex !important; align-items: center !important; justify-content: center !important; margin-bottom: 30px !important; font-weight: 800 !important; letter-spacing: -1px !important; line-height: 1.1 !important; min-height: 120px !important; width: 100% !important;"><span
+                                        class="lang-fr">Protection des Données (Loi 18-07)</span><span class="lang-en">Data Protection (Law 18-07)</span></strong>
+                                <p
+                                    style="font-size: 1.8rem !important; color: var(--text-muted) !important; line-height: 1.6 !important; max-width: 95% !important; margin: 0 auto !important; font-weight: 500 !important; min-height: 150px !important; text-align: center !important;">
+                                    <span class="lang-fr">Mise en conformité du traitement des données personnelles au sein des compagnies d'assurances.</span><span class="lang-en">Compliance of personal data processing within insurance companies.</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Pillar 2: Financial Integrity -->
+                        <div class="benefit-item fade-up delay-2"
+                            style="flex-direction: column !important; text-align: center !important; padding: 75px 50px !important; border: 3px solid rgba(2, 132, 199, 0.3) !important; background: white !important; border-radius: 45px !important; box-shadow: 0 25px 60px rgba(0,0,0,0.08) !important; width: 540px !important; height: 780px !important; display: flex !important; justify-content: flex-start !important; align-items: center !important; box-sizing: border-box !important; flex-shrink: 0 !important;">
+                            <div class="icon-circle"
+                                style="width: 170px !important; height: 170px !important; background: rgba(2, 132, 199, 0.05) !important; border-radius: 50% !important; display: flex !important; align-items: center !important; justify-content: center !important; margin-bottom: 50px !important; border: 3px solid rgba(2, 132, 199, 0.4) !important; flex-shrink: 0 !important;">
+                                <i class="fa-solid fa-scale-balanced"
+                                    style="font-size: 6.5rem !important; color: var(--accent-glow) !important;"></i>
+                            </div>
+                            <div class="benefit-content"
+                                style="width: 100% !important; display: flex !important; flex-direction: column !important; align-items: center !important;">
+                                <strong
+                                    style="font-size: 3rem !important; color: var(--text-main) !important; display: flex !important; align-items: center !important; justify-content: center !important; margin-bottom: 30px !important; font-weight: 800 !important; letter-spacing: -1px !important; line-height: 1.1 !important; min-height: 120px !important; width: 100% !important;"><span
+                                        class="lang-fr">Intégrité Financière (Loi 05-01 - LCB-FT)</span><span class="lang-en">Financial Integrity (AML-CFT)</span></strong>
+                                <p
+                                    style="font-size: 1.8rem !important; color: var(--text-muted) !important; line-height: 1.6 !important; max-width: 95% !important; margin: 0 auto !important; font-weight: 500 !important; min-height: 150px !important; text-align: center !important;">
+                                    <span class="lang-fr">Renforcement des mécanismes de Déclaration de Soupçon et de vigilance (KYC/KYB).</span><span class="lang-en">Strengthening of Suspicious Transaction Reporting and vigilance mechanisms (KYC/KYB).</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Pillar 3: IT Security -->
+                        <div class="benefit-item fade-up delay-3"
+                            style="flex-direction: column !important; text-align: center !important; padding: 75px 50px !important; border: 3px solid rgba(2, 132, 199, 0.3) !important; background: white !important; border-radius: 45px !important; box-shadow: 0 25px 60px rgba(0,0,0,0.08) !important; width: 540px !important; height: 780px !important; display: flex !important; justify-content: flex-start !important; align-items: center !important; box-sizing: border-box !important; flex-shrink: 0 !important;">
+                            <div class="icon-circle"
+                                style="width: 170px !important; height: 170px !important; background: rgba(2, 132, 199, 0.05) !important; border-radius: 50% !important; display: flex !important; align-items: center !important; justify-content: center !important; margin-bottom: 50px !important; border: 3px solid rgba(2, 132, 199, 0.4) !important; flex-shrink: 0 !important;">
+                                <i class="fa-solid fa-shield-halved"
+                                    style="font-size: 6.5rem !important; color: var(--accent-glow) !important;"></i>
+                            </div>
+                            <div class="benefit-content"
+                                style="width: 100% !important; display: flex !important; flex-direction: column !important; align-items: center !important;">
+                                <strong
+                                    style="font-size: 3rem !important; color: var(--text-main) !important; display: flex !important; align-items: center !important; justify-content: center !important; margin-bottom: 30px !important; font-weight: 800 !important; letter-spacing: -1px !important; line-height: 1.1 !important; min-height: 120px !important; width: 100% !important;"><span
+                                        class="lang-fr">Sécurité Informatique (Décret 26-07)</span><span class="lang-en">IT Security (Decree 26-07)</span></strong>
+                                <p
+                                    style="font-size: 1.8rem !important; color: var(--text-muted) !important; line-height: 1.6 !important; max-width: 95% !important; margin: 0 auto !important; font-weight: 500 !important; min-height: 150px !important; text-align: center !important;">
+                                    <span class="lang-fr">Application des normes de cybersécurité (Décret Présidentiel n° 26-07 du 07/01/2026).</span><span class="lang-en">Application of cybersecurity standards (Presidential Decree No. 26-07 of 01/07/2026).</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+            <!-- Slide 3 : Accès Sécurisé & Filtrage Web -->
+            <section data-transition="slide" id="architecture">
+                <div class="slide-header">
+                    <div class="title-icon-container"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h2 class="main-slide-title">
+                        <span class="lang-fr">Accès Sécurisé : Filtrage Web</span>
+                        <span class="lang-en">Secure Access: Web Filtering</span>
+                    </h2>
+                </div>
+                
+                <div class="diagram-container" style="margin-top: 150px; display: flex; align-items: center; justify-content: center; gap: 80px;">
+                    <!-- Public Area -->
+                    <div class="fade-up delay-1" style="text-align: center;">
+                        <div class="glass-box" style="width: 250px; padding: 40px; border-top: 6px solid var(--zone-public-color);">
+                            <i class="fa-solid fa-globe" style="font-size: 4rem; color: var(--zone-public-color); margin-bottom: 20px;"></i>
+                            <h3 style="font-size: 1.5rem; margin: 0;"><span class="lang-fr">Internet</span><span class="lang-en">Internet</span></h3>
+                            <p style="font-size: 1rem; margin-top: 10px;">Accès Public</p>
+                        </div>
+                    </div>
+
+                    <div class="fade-up delay-2" style="font-size: 3rem; color: var(--accent-glow);">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+
+                    <!-- Security Layer -->
+                    <div class="fade-up delay-3" style="text-align: center;">
+                        <div class="glass-box" style="width: 400px; padding: 50px; border-top: 6px solid #ef4444; position: relative;">
+                            <div class="security-tag" style="position: absolute; top: -20px; left: 50%; transform: translateX(-50%); background: #ef4444; color: white; border: none;">Sécurité Active</div>
+                            <i class="fa-solid fa-filter" style="font-size: 5rem; color: #ef4444; margin-bottom: 20px;"></i>
+                            <h3 style="font-size: 2rem; margin: 0;"><span class="lang-fr">Filtrage Web / WAF</span><span class="lang-en">Web Filtering / WAF</span></h3>
+                            <p style="font-size: 1.2rem; margin-top: 10px;">Protection & Filtrage IP</p>
+                        </div>
+                    </div>
+
+                    <div class="fade-up delay-4" style="font-size: 3rem; color: var(--accent-glow);">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+
+                    <!-- Private Platform -->
+                    <div class="fade-up delay-5" style="text-align: center;">
+                        <div class="glass-box" style="width: 250px; padding: 40px; border-top: 6px solid var(--accent-glow);">
+                            <i class="fa-solid fa-shield-halved" style="font-size: 4rem; color: var(--accent-glow); margin-bottom: 20px;"></i>
+                            <h3 style="font-size: 1.5rem; margin: 0;"><span class="lang-fr">Plateforme E-DS</span><span class="lang-en">E-DS Platform</span></h3>
+                            <p style="font-size: 1rem; margin-top: 10px;">Environnement Sécurisé</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="benefits-container fade-up delay-7" style="margin-top: 100px;">
+                    <div class="benefits-grid" style="grid-template-columns: repeat(2, 1fr); gap: 40px;">
+                        <div class="benefit-item">
+                            <i class="fa-solid fa-user-lock"></i>
+                            <div class="benefit-content">
+                                <strong><span class="lang-fr">Restriction IP</span><span class="lang-en">IP Restriction</span></strong>
+                                <p><span class="lang-fr">Accès limité aux adresses IP autorisées des compagnies d'assurances.</span><span class="lang-en">Access limited to authorized IP addresses of insurance companies.</span></p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fa-solid fa-microchip"></i>
+                            <div class="benefit-content">
+                                <strong><span class="lang-fr">Filtrage Applicatif (WAF)</span><span class="lang-en">Application Filtering (WAF)</span></strong>
+                                <p><span class="lang-fr">Blocage automatique des tentatives d'intrusion et des requêtes malveillantes.</span><span class="lang-en">Automatic blocking of intrusion attempts and malicious requests.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 4 : Processus Déclaratif : Assujetti Assurance -->
+            <section data-transition="convex" id="collecte-acces">
+                <div class="slide-header">
+                    <div class="title-icon-container" style="color: var(--zone-public-color);">
+                        <i class="fa-solid fa-cloud-arrow-up"></i>
+                    </div>
+                    <h2 class="main-slide-title">
+                        <span class="lang-fr">Processus Déclaratif : Assujetti Assurance</span>
+                        <span class="lang-en">Reporting Process: Insurance Entity</span>
+                    </h2>
+                </div>
+
+                <div class="workflow-modern-container" style="margin-top: 100px; display: flex; flex-direction: column; gap: 80px; align-items: center; width: 100%;">
+                    
+                    <!-- Phase 1: Initiation -->
+                    <div class="workflow-phase-group fade-up delay-1" style="display: flex; align-items: flex-start; justify-content: center; gap: 0; width: 100%;">
+                        
+                        <!-- Step 1: Debut -->
+                        <div class="step-card-wrapper" style="display: flex; flex-direction: column; align-items: center; width: 260px; position: relative;">
+                            <div class="step-icon-modern" style="width: 140px; height: 140px; background: white; border: 4px solid var(--accent-glow); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 3.5rem; color: var(--accent-glow); box-shadow: 0 20px 45px rgba(2, 132, 199, 0.2); z-index: 2;">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <div class="step-label-modern" style="margin-top: 25px; text-align: center;">
+                                <strong style="display: block; font-size: 1.8rem; color: var(--text-main);"><span class="lang-fr">Début</span><span class="lang-en">Start</span></strong>
+                            </div>
+                            <div class="step-connector" style="position: absolute; top: 70px; left: 200px; width: 130px; height: 5px; background: linear-gradient(90deg, var(--accent-glow), var(--secondary-color)); z-index: 1;"></div>
+                        </div>
+
+                        <!-- Step 2: Brouillon -->
+                        <div class="step-card-wrapper" style="display: flex; flex-direction: column; align-items: center; width: 260px; position: relative; margin-left: 70px;">
+                            <div class="step-icon-modern" style="width: 140px; height: 140px; background: white; border: 4px solid var(--secondary-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 3.5rem; color: var(--text-muted); box-shadow: 0 20px 45px rgba(0,0,0,0.08); z-index: 2; position: relative;">
+                                <i class="fa-solid fa-file-pen"></i>
+                                <span style="position: absolute; top: -15px; background: var(--warning-color); color: white; font-size: 1rem; padding: 6px 18px; border-radius: 15px; font-weight: 800; text-transform: uppercase; letter-spacing: 2px;">Optionnel</span>
+                            </div>
+                            <div class="step-label-modern" style="margin-top: 25px; text-align: center;">
+                                <strong style="display: block; font-size: 1.8rem; color: var(--text-muted);"><span class="lang-fr">Brouillon</span><span class="lang-en">Draft</span></strong>
+                            </div>
+                            <div class="step-connector" style="position: absolute; top: 70px; left: 200px; width: 130px; height: 5px; background: linear-gradient(90deg, var(--secondary-color), var(--accent-glow)); z-index: 1;"></div>
+                        </div>
+
+                        <!-- Step 3: Soumission -->
+                        <div class="step-card-wrapper has-video" style="display: flex; flex-direction: column; align-items: center; width: 260px; position: relative; margin-left: 70px; cursor: pointer;"
+                             data-video="Video/dsmanuel.mp4" data-title-fr="Soumettre une déclaration" data-title-en="Submit Statement"
+                             onclick="if(typeof window.openVideoModal === 'function') window.openVideoModal(this.dataset.video, this.dataset.titleFr, this.dataset.titleEn)">
+                            <div class="step-icon-modern highlight" style="width: 170px; height: 170px; background: var(--accent-glow); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 4.5rem; color: white; box-shadow: 0 25px 60px rgba(2, 132, 199, 0.45); z-index: 2; margin-top: -15px; position: relative;">
+                                <i class="fa-solid fa-paper-plane"></i>
+                                <span class="video-badge" style="position: absolute; bottom: 8px; right: 8px; background: white; color: var(--accent-glow); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; box-shadow: 0 6px 20px rgba(0,0,0,0.2); border: 3px solid var(--accent-glow);"><i class="fa-solid fa-play"></i></span>
+                            </div>
+                            <div class="step-label-modern" style="margin-top: 15px; text-align: center;">
+                                <strong style="display: block; font-size: 2rem; color: var(--accent-glow);"><span class="lang-fr">Soumission</span><span class="lang-en">Submission</span></strong>
+                            </div>
+                            <div class="step-connector" style="position: absolute; top: 70px; left: 210px; width: 130px; height: 5px; background: linear-gradient(90deg, var(--accent-glow), var(--success-color)); z-index: 1;"></div>
+                        </div>
+
+                        <!-- Step 4: Fin -->
+                        <div class="step-card-wrapper" style="display: flex; flex-direction: column; align-items: center; width: 260px; position: relative; margin-left: 70px;">
+                            <div class="step-icon-modern" style="width: 140px; height: 140px; background: var(--success-color); border: none; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 4rem; color: white; box-shadow: 0 20px 45px rgba(5, 150, 105, 0.3); z-index: 2;">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <div class="step-label-modern" style="margin-top: 25px; text-align: center;">
+                                <strong style="display: block; font-size: 1.8rem; color: var(--success-color);"><span class="lang-fr">Fin</span><span class="lang-en">End</span></strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Flow transition -->
+                    <div class="flow-divider-modern fade-up delay-4" style="width: 90%; height: 3px; background: linear-gradient(90deg, transparent, var(--secondary-color), transparent); position: relative;">
+                        <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); background: #f8fafc; padding: 0 40px; font-weight: 900; color: var(--text-muted); font-size: 1.3rem; letter-spacing: 6px; text-transform: uppercase;">Actions de Suivi</div>
+                    </div>
+
+                    <!-- Phase 2: Actions post-soumission -->
+                    <div class="workflow-phase-group fade-up delay-5" style="display: flex; align-items: center; justify-content: center; gap: 30px; width: 100%; flex-wrap: wrap;">
+                        <div class="glass-box" style="display: flex; align-items: center; gap: 20px; padding: 30px 40px; min-width: 350px;">
+                            <i class="fa-solid fa-folder-plus" style="font-size: 2.8rem; color: var(--accent-glow);"></i>
+                            <div style="text-align: left;">
+                                <strong style="display: block; font-size: 1.4rem; color: var(--text-main);"><span class="lang-fr">Fichiers</span><span class="lang-en">Files</span></strong>
+                                <span style="font-size: 1rem; color: var(--text-muted);">Pièces jointes</span>
+                            </div>
+                        </div>
+
+                        <div class="glass-box" style="display: flex; align-items: center; gap: 20px; padding: 30px 40px; min-width: 350px;">
+                            <i class="fa-solid fa-message" style="font-size: 2.8rem; color: var(--accent-glow);"></i>
+                            <div style="text-align: left;">
+                                <strong style="display: block; font-size: 1.4rem; color: var(--text-main);"><span class="lang-fr">Messagerie</span><span class="lang-en">Messaging</span></strong>
+                                <span style="font-size: 1rem; color: var(--text-muted);">Communication</span>
+                            </div>
+                        </div>
+
+                        <div class="glass-box" style="display: flex; align-items: center; gap: 20px; padding: 30px 40px; min-width: 350px;">
+                            <i class="fa-solid fa-file-invoice" style="font-size: 2.8rem; color: var(--accent-glow);"></i>
+                            <div style="text-align: left;">
+                                <strong style="display: block; font-size: 1.4rem; color: var(--text-main);"><span class="lang-fr">Accusé (AR)</span><span class="lang-en">Receipt</span></strong>
+                                <span style="font-size: 1rem; color: var(--text-muted);">Preuve de dépôt</span>
+                            </div>
+                        </div>
+
+                        <div class="glass-box has-video" style="display: flex; align-items: center; gap: 20px; padding: 30px 40px; min-width: 350px; border-color: var(--accent-glow); cursor: pointer;"
+                             data-video="Video/consulterfeedback.mp4" data-title-fr="Consulter Feedback" data-title-en="View Feedback"
+                             onclick="if(typeof window.openVideoModal === 'function') window.openVideoModal(this.dataset.video, this.dataset.titleFr, this.dataset.titleEn)">
+                            <i class="fa-solid fa-comments" style="font-size: 2.8rem; color: var(--accent-glow);"></i>
+                            <div style="text-align: left;">
+                                <strong style="display: block; font-size: 1.4rem; color: var(--text-main);"><span class="lang-fr">Feedback</span><span class="lang-en">Feedback</span></strong>
+                                <span style="font-size: 1rem; color: var(--text-muted);">Suivi CTRF</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 5 : Accès Numérique -->
+            <section data-transition="zoom" id="qr-access">
+                <div class="slide-header">
+                    <div class="title-icon-container" style="color: var(--accent-glow);"><i class="fa-solid fa-qrcode"></i></div>
+                    <h2 class="main-slide-title">
+                        <span class="lang-fr">Accès à la Présentation Numérique</span>
+                        <span class="lang-en">Digital Presentation Access</span>
+                    </h2>
+                </div>
+                
+                <div class="qr-container fade-up" style="margin-top: 20px; display: flex; flex-direction: column; align-items: center; gap: 30px;">
+                    <div class="glass-box" style="padding: 50px; border-radius: 50px; background: rgba(255, 255, 255, 0.95); box-shadow: 0 40px 100px rgba(2, 132, 199, 0.3);">
+                        <img src="qr_code_presentation_1777369522643.png" alt="QR Code" style="width: 850px; height: 850px; border-radius: 30px;">
+                    </div>
+                    <div class="qr-instructions" style="text-align: center;">
+                        <h3 style="font-size: 2.8rem; color: var(--text-main); margin-top: 20px;">
+                            <span class="lang-fr">Scannez pour consulter sur votre appareil</span>
+                            <span class="lang-en">Scan to view on your device</span>
+                        </h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 6 : CONCLUSION & REMERCIEMENTS -->
+            <section class="section-header-slide" data-transition="zoom" id="conclusion">
+                <div class="thank-you-container">
+                    <div class="thank-you-content fade-up">
+                        <h1 class="animated-thanks" style="margin-bottom: 60px !important;">
+                            <span class="lang-fr"><span class="eds-glow"
+                                    style="color:white; -webkit-text-fill-color:white; filter:drop-shadow(0 0 20px rgba(0,229,255,0.8));">E-DS</span>
+                                : Une Capacité Opérationnelle</span>
+                            <span class="lang-en"><span class="eds-glow"
+                                    style="color:white; -webkit-text-fill-color:white; filter:drop-shadow(0 0 20px rgba(0,229,255,0.8));">E-DS</span>:
+                                An Operational Capability</span>
+                        </h1>
+
+                        <h1 class="animated-thanks" style="font-size: 3.2rem !important; opacity: 0.9;">
+                            <span class="lang-fr">Merci pour votre attention</span>
+                            <span class="lang-en">Thank you for your attention</span>
+                        </h1>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+    <!-- Video Modal -->
+    <div id="video-modal" class="video-modal-overlay" role="dialog" aria-modal="true" aria-label="Démonstration vidéo">
+        <div class="video-modal-container">
+            <div class="video-modal-header">
+                <div class="video-modal-title">
+                    <i class="fa-solid fa-circle-play"></i>
+                    <span id="video-modal-title-text">Démonstration</span>
+                </div>
+                <button class="video-modal-close" id="video-modal-close" aria-label="Fermer">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="video-modal-body">
+                <video id="video-modal-player" controls playsinline preload="metadata">
+                    <source id="video-modal-source" src="" type="video/mp4">
+                    Votre navigateur ne supporte pas la lecture vidéo.
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/reveal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@antv/x6/dist/x6.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
