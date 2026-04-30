@@ -28,10 +28,7 @@
             <!-- Slide 1 : Titre & Vision -->
             <section class="title-slide" data-transition="zoom" id="title">
                 <div class="glass-card main-title-card">
-                    <div class="logos-container">
-                        <img src="logo ctrf.png" alt="Logo CTRF" class="header-logo">
-                        <img src="logo.png" alt="Logo Ministère" class="header-logo">
-                    </div>
+
                     <h1 class="gradient-text main-title">
                         <span class="lang-fr"><span class="eds-glow">E-DS</span> : Plateforme numérique de gestion des
                             Déclarations de Soupçon</span>
@@ -240,12 +237,9 @@
                         </div>
 
                         <!-- Step 3: Soumission -->
-                        <div class="step-card-wrapper has-video" style="display: flex; flex-direction: column; align-items: center; width: 260px; position: relative; margin-left: 70px; cursor: pointer;"
-                             data-video="Video/dsmanuel.mp4" data-title-fr="Soumettre une déclaration" data-title-en="Submit Statement"
-                             onclick="if(typeof window.openVideoModal === 'function') window.openVideoModal(this.dataset.video, this.dataset.titleFr, this.dataset.titleEn)">
+                        <div class="step-card-wrapper" style="display: flex; flex-direction: column; align-items: center; width: 260px; position: relative; margin-left: 70px;">
                             <div class="step-icon-modern highlight" style="width: 170px; height: 170px; background: var(--accent-glow); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 4.5rem; color: white; box-shadow: 0 25px 60px rgba(2, 132, 199, 0.45); z-index: 2; margin-top: -15px; position: relative;">
                                 <i class="fa-solid fa-paper-plane"></i>
-                                <span class="video-badge" style="position: absolute; bottom: 8px; right: 8px; background: white; color: var(--accent-glow); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; box-shadow: 0 6px 20px rgba(0,0,0,0.2); border: 3px solid var(--accent-glow);"><i class="fa-solid fa-play"></i></span>
                             </div>
                             <div class="step-label-modern" style="margin-top: 15px; text-align: center;">
                                 <strong style="display: block; font-size: 2rem; color: var(--accent-glow);"><span class="lang-fr">Soumission</span><span class="lang-en">Submission</span></strong>
@@ -295,9 +289,7 @@
                             </div>
                         </div>
 
-                        <div class="glass-box has-video" style="display: flex; align-items: center; gap: 20px; padding: 30px 40px; min-width: 350px; border-color: var(--accent-glow); cursor: pointer;"
-                             data-video="Video/consulterfeedback.mp4" data-title-fr="Consulter Feedback" data-title-en="View Feedback"
-                             onclick="if(typeof window.openVideoModal === 'function') window.openVideoModal(this.dataset.video, this.dataset.titleFr, this.dataset.titleEn)">
+                        <div class="glass-box" style="display: flex; align-items: center; gap: 20px; padding: 30px 40px; min-width: 350px; border-color: var(--accent-glow);">
                             <i class="fa-solid fa-comments" style="font-size: 2.8rem; color: var(--accent-glow);"></i>
                             <div style="text-align: left;">
                                 <strong style="display: block; font-size: 1.4rem; color: var(--text-main);"><span class="lang-fr">Feedback</span><span class="lang-en">Feedback</span></strong>
@@ -318,15 +310,31 @@
                     </h2>
                 </div>
                 
-                <div class="qr-container fade-up" style="margin-top: 20px; display: flex; flex-direction: column; align-items: center; gap: 30px;">
-                    <div class="glass-box" style="padding: 50px; border-radius: 50px; background: rgba(255, 255, 255, 0.95); box-shadow: 0 40px 100px rgba(2, 132, 199, 0.3);">
-                        <img src="qr_code_presentation_1777369522643.png" alt="QR Code" style="width: 850px; height: 850px; border-radius: 30px;">
+                <div class="qr-container fade-up" style="margin-top: 80px; display: flex; flex-direction: column; align-items: center; gap: 30px;">
+                    <div class="glass-box" style="padding: 40px; border-radius: 50px; background: rgba(255, 255, 255, 0.95); box-shadow: 0 40px 100px rgba(2, 132, 199, 0.3);">
+                        <img src="qr-code.png" alt="QR Code" style="width: 450px; height: 450px; border-radius: 30px;">
                     </div>
                     <div class="qr-instructions" style="text-align: center;">
-                        <h3 style="font-size: 2.8rem; color: var(--text-main); margin-top: 20px;">
+                        <h3 style="font-size: 2.5rem; color: var(--text-main); margin-top: 20px;">
                             <span class="lang-fr">Scannez pour consulter sur votre appareil</span>
                             <span class="lang-en">Scan to view on your device</span>
                         </h3>
+                    </div>
+                    
+                    <div class="download-container" style="margin-top: 30px;">
+                        <a href="Guide-utilisation-2.0.pdf" class="glass-box" style="display: flex; align-items: center; gap: 20px; padding: 25px 50px; text-decoration: none; border: 2px solid var(--accent-glow); transition: all 0.3s ease; background: rgba(2, 132, 199, 0.1);" onmouseover="this.style.background='rgba(2, 132, 199, 0.2)'; this.style.transform='translateY(-5px)'" onmouseout="this.style.background='rgba(2, 132, 199, 0.1)'; this.style.transform='translateY(0)'">
+                            <i class="fa-solid fa-file-pdf" style="font-size: 3rem; color: #ef4444;"></i>
+                            <div style="text-align: left;">
+                                <strong style="display: block; font-size: 1.8rem; color: var(--text-main);">
+                                    <span class="lang-fr">Télécharger le Guide PDF</span>
+                                    <span class="lang-en">Download PDF Guide</span>
+                                </strong>
+                                <span style="font-size: 1.2rem; color: var(--text-muted);">
+                                    <span class="lang-fr">Manuel d'utilisation E-DS</span>
+                                    <span class="lang-en">E-DS User Manual</span>
+                                </span>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </section>
